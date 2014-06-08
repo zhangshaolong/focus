@@ -1,0 +1,45 @@
+.focus-container{
+    overflow:hidden;
+    position:relative;
+};
+.focus-container .focus-resource{
+    float:right;
+    border:0;
+}
+.focus-container .resource-holder{
+    position:absolute;
+    left:0;
+    top:0;
+    border:0;
+}
+.focus-container .focus-pager{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    filter:alpha(Opacity=60);
+    -moz-opacity:0.6;
+    opacity: 0.6;
+    background:#fff;
+    height: 45px;
+    line-height:45px;
+    vertical-align:middle;
+}
+.focus-container .focus-page{
+    position:relative;
+    float:right;
+    width:25px;
+    line-height:25px;
+    margin-left:2px;
+    text-align:center;
+    cursor:pointer;
+    color:#fff;
+    font-weight:bold;
+    top:10px;
+    right:5px;
+}
+.focus-container  .selected{
+    background:#3e1;
+}
+.focus-container  .unselected{
+    background:#f00;
+}

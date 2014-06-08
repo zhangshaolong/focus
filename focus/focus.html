@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/focus.css" />
+    <script src="js/focus.js"></script>
+    <script>
+        onload = function(){
+            var fcs = new Focus({
+                holder: document.getElementById('pps'),
+                pauseable: true
+            });
+            //fcs.load(document.getElementById('res').childNodes);
+            fcs.load(['<img src="imgs/1.jpg" width="600" height="400" />', '<img src="imgs/3.jpg" width="600" height="400" />', '<img src="imgs/4.jpg" width="600" height="400" />', '<img src="imgs/5.jpg" width="600" height="400" />', '<img src="imgs/6.jpg" width="600" height="400" />', '<img src="imgs/7.jpg" width="600" height="400" />']);
+            fcs.play();
+        }
+    </script>
+</head>
+<body>
+    <div id="pps" style="width:600px;height:400px;"></div>
+    <hr />
+    <div id="res" style="display:none;"><img src="imgs/1.jpg" width="600" height="400" /><img src="imgs/2.jpg" width="600" height="400" /><img src="imgs/3.jpg" width="600" height="400" /><img src="imgs/4.jpg" width="600" height="400" /><img src="imgs/5.jpg" width="600" height="400" /><img src="imgs/6.jpg" width="600" height="400" /><img src="imgs/7.jpg" width="600" height="400" /><img src="imgs/8.jpg" width="600" height="400" /><img src="imgs/9.jpg" width="600" height="400" /><img src="imgs/10.jpg" width="600" height="400" /><img src="imgs/11.jpg" width="600" height="400" /><img src="imgs/12.jpg" width="600" height="400" /></div>
+</body>
+</html>
