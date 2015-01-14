@@ -1,6 +1,6 @@
 /**
  * @file 焦点图广告展示
- * @author：张少龙（zhangshaolong@baidu.com）
+ * @author：张少龙（zhangshaolongjj@163.com）
  */
 (function (root, factory) {
     var focus = factory();
